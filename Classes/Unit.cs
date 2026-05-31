@@ -1,33 +1,23 @@
-namespace UnitClasses
+namespace Classes
 {
     public class Unit
     {
-        // Имя юнита, только для чтения
         public string Name { get; }
-        // Урон, только для чтения
-        public int Damage { get; }
-        // Приватное поле здоровья
+        public Interval Damage { get; }
         private float _health;
-        // Свойство здоровья, только для чтения
         public float Health => _health;
-        // Броня, только для чтения
         public float Armor { get; }
 
-        // Конструктор без аргументов вызывает конструктор с аргументом (имя)
-        public Unit() : this("Unknown Unit")
-        {
-        }
+        public Unit() : this("Unknown Unit", 100f, 0, 10) {}
 
-        // Конструктор с одним строковым аргументом (имя)
-        public Unit(string name) : this(name, 100f)
-        {
-        }
+        public Unit(string name) : this(name, 100f, 0, 10) {}
 
-        // Конструктор с аргументами для имени и здоровья
-        public Unit(string name, float health)
+        public Unit(string name, float health) : this(name, health, 0, 10) {}
+
+        public Unit(string name, float health, int minDamage, int maxDamage)
         {
             Name = name;
-            Damage = 5;
+            Damage = new Interval(minDamage, maxDamage);
             _health = health;
             Armor = 0.6f;
         }

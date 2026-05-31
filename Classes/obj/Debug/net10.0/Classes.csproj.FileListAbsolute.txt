@@ -26,3 +26,4 @@
 /Users/alekseykhromov/Library/Mobile Documents/com~apple~CloudDocs/My Cloud/GameDev/Разработчик uninty/2 CSharp/Classes/Classes/obj/Debug/net10.0/Classes.pdb
 /Users/alekseykhromov/Library/Mobile Documents/com~apple~CloudDocs/My Cloud/GameDev/Разработчик uninty/2 CSharp/Classes/Classes/obj/Debug/net10.0/Classes.genruntimeconfig.cache
 /Users/alekseykhromov/Library/Mobile Documents/com~apple~CloudDocs/My Cloud/GameDev/Разработчик uninty/2 CSharp/Classes/Classes/obj/Debug/net10.0/ref/Classes.dll
+/Users/alekseykhromov/Library/Mobile Documents/com~apple~CloudDocs/My Cloud/GameDev/Разработчик uninty/2 CSharp/Classes/Classes/obj/Debug/net10.0/Classes.sourcelink.json
